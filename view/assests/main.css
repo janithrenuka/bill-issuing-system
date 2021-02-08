@@ -57,7 +57,7 @@ button:hover{
     overflow: hidden;
     width: 100%;
     position: relative;
-    height: 10%;
+    height: 5%;
     top: 0;
 }
 
@@ -69,9 +69,10 @@ button:hover{
     text-decoration: none;
     border-radius: 5%;
     font-size: 20px;
-    margin: 2px;
+    margin-top: 5px;
     background-color: #065b7a;
-    margin-right: 10px;
+    margin-right: 5px;
+    margin-bottom: 2px;
 }
 
 .footer {
@@ -84,3 +85,36 @@ button:hover{
     flex-shrink: 0;
     height: 94px;
 }
+
+.home_image{
+    background-image: url("../img/home_cover_new.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 550px;
+    background-repeat: no-repeat;
+    margin-top: auto;
+    width: 100%;
+}
+
+h2 {
+    width: 100%;
+    font-size: 26px;
+    background-color: #065b7a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .column {
+    float: left;
+    padding: 10px;
+    min-height: 600px;
+    height: auto;
+    /*box-shadow: 4px 0px grey;*/
+    padding-top: 10px;
+    /*border-style: solid;*/
+    border-color: #065b7a;
+    width: 100%;
+  }
