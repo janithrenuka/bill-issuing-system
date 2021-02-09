@@ -15,7 +15,7 @@
     <header>
         <div class="">
             <div class="topnav">
-                <img src="../img/home_cover.jpg" alt="" style="width: 25%; margin-left: 0; margin-top:0; margin-bottom:0">
+                <img src="../img/home_cover_new.jpg" alt="" style="width: 25%; margin-left: 0; margin-top:0; margin-bottom:0">
                 <a href="#">Sign Up</a>
                 <a href="home.php">Home</a>
             </div>

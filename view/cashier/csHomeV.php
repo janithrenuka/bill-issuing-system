@@ -7,7 +7,7 @@
 
     
         <div class="column">
-            <h2>Cashier Home Page</h2>
+            <h2>Cashier home page</h2>
         </div>
     </div>
 </main>
