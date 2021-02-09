@@ -1,5 +1,5 @@
             <div class="footer">
-                <!-- <h2>All Rights Received <br> @RJ</h2> -->
+                <!---<h2>POS SYSTEM @2021 All Rights Received <br>Galle </h2>--->
             </div>
         </div>
     </body>

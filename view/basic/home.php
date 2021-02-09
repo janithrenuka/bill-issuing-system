@@ -26,7 +26,7 @@
 </body>
 
 
-<!-- <main>
+<main>
     <div class="container">
         <div class="col">
             <button class="">Add/Remove Items</button>
@@ -41,5 +41,5 @@
             <button class="">Amounts</button>
         </div>
     </div>
-</main> -->
+</main>
 
