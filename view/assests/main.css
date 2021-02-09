@@ -10,7 +10,6 @@ body {
 }
 
 .container{
-    margin-top: 150px;
     margin-left: 150px;
     margin-right: 150px;
     background-color: aquamarine;
@@ -87,11 +86,11 @@ button:hover{
 }
 
 .home_image{
-    background-image: url("../img/home_cover_new.jpg");
+    background-image: url("../img/cover_bg.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
-    height: 550px;
+    height: 565px;
     background-repeat: no-repeat;
     margin-top: auto;
     width: 100%;
