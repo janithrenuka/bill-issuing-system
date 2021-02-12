@@ -43,7 +43,8 @@ button {
     height: 250px;
     border: 5px solid white;
     background-color: #065b7a;
-    border-radius: 10%;
+    border-radius: 5%;
+    margin-left: auto;
 }
 
 button:hover{
@@ -104,9 +105,11 @@ h2 {
     text-align: center;
     padding: 10px;
     border-radius: 10px;
-  }
+}
 
-  .column {
+/*--------arrange home----------*/
+
+.column {
     float: left;
     padding: 10px;
     min-height: 600px;
@@ -116,4 +119,116 @@ h2 {
     /*border-style: solid;*/
     border-color: #065b7a;
     width: 100%;
-  }
+}
+
+.left{
+    width: 20%;
+}
+  
+.middle {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 78%;
+    border-style: solid;
+}
+  
+.middle h2 {
+    width: 100%;
+    font-size: 26px;
+    background-color: #065b7a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+/*-------arrange side nav----------*/
+#tree_view {
+    margin: 0;
+    padding: 0;
+}
+
+.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tree_list {
+    text-align: left;
+    margin-bottom: 1%;
+    margin-top: 0%;
+    border: 2px solid white;
+    cursor: pointer;
+    user-select: none; /* Prevent text selection */
+    color: white;
+    font-size: 20px;
+    /*font-weight: bold;*/
+    padding-left: 5%;
+    background-color: #065b7a;
+    width: 100%;
+    height: 55px;
+    padding: 3px;
+}
+  
+.tree_list.active {
+    color: #fff;
+    background-color: #1177d1;
+    border-color: #1177d1;
+}
+  
+.tree_list:hover {
+    background-color: #1177d1;
+    /*font-weight: bold;*/
+    /*opacity: 0.7;*/
+}
+  
+.tree_list a{
+    color: white;
+}
+  
+  /* Create the caret/arrow with a unicode, and style it */
+.tree_list::before {
+    content: "\25B6";
+    display: inline-block;
+    margin-right: 10px;
+    color: white;
+}
+  
+  /* Rotate the caret/arrow icon when clicked on (using JavaScript) */
+.tree_list-down::before {
+    transform: rotate(270deg);
+    color: white;
+}
+
+.tree_nest {
+    display: none;
+    font-size: 18px;
+    /*padding-left: 10%;*/
+}
+  
+.tree_nest button {
+    text-align: left;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    border: 2px solid #065b7a;
+    cursor: pointer;
+    user-select: none; /* Prevent text selection */
+    color: white;
+    font-size: 18px;
+    padding-left: 8%;
+    background-color: white;
+    width: 95%;
+    height: 55px;
+    padding: 3px;
+}
+  
+.tree_nest a{
+    color: darkslateblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+  
+.tree_nest a:hover{
+    /*font-weight: bold;*/
+    color: #065b7a;
+}
